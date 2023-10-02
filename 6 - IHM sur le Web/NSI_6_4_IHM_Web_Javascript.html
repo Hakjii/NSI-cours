@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <title>NSI_6_4_IHM_Web_Javascript</title>
+    <style>
+      body {
+        font-family: 'Noto Sans TC', sans-serif;
+      }
+      h1 { 
+        color: #1BB2E0;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      table, th, td {
+        border: 1px solid black;
+      }
+      .gras {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Comment rendre une page web interactive avec Javascript ?</h1>
+    </header>
+
+    <section>
+      <p><b>Remarque :</b> n'hésitez pas à appliquer votre fichier CSS à cette page HTML 
+        pour la rendre plus attrayante.</p>
+
+      <h2>1. Construire un cours interactif</h2>
+      
+      <p>Cette fois encore, vous devrez construire votre cours à partir du 
+        <a href=http://www.monlyceenumerique.fr/nsi_premiere/ihm_w/w3_java_script.php>
+        site web Mon Lycée Numérique</a></p>
+      <p class="gras">Il vous faudra donc :</p>
+      <ul>
+        <li>Lire attentivement <a href=http://www.monlyceenumerique.fr/nsi_premiere/ihm_w/w3_java_script.php>
+          cette page</a>.</li>
+        <li>Afficher son code source (Crt+U) pour faciliter les "copier / coller" ultérieurs.</li>
+        <li>Copier / coller dans ce document HTML les éléments importants à retenir.</li>
+        <li>Faire des <a href=https://developer.mozilla.org/fr/docs/Web/JavaScript>
+          recherches complémentaires</a> au besoin pour compléter votre cours.</li>
+        <li>Faire les exercices proposés, directement sur ce document de cours HTML.</li>
+      </ul> 
+      <p class="gras">Ce qu'il n'est pas indispensable de faire :</p>
+      <ul>
+        <li>Télécharger et utiliser la "page web basique pour travailler".</li>
+        <li>Séparer le code Javascript dans un fichier séparé (même si c'est préférable en règle générale).</li>
+        <li>Noter l'instruction <EM>var</EM> (Chap. 3.3), puisqu'elle est maintenant obsolète.</li>
+        <li>Faire l'exercice 15.</li>
+        <li>Faire les activités du chapitre 7 (même si l'exercice 17 
+          peut être un bon exercice d'approfondissement).</li>
+      </ul> 
+
+      <h2>2. Que retenir ?</h2>
+      <h3>A minima...</h3>
+
+      <ul>
+        <li>Javascript est un langage de programmation qui permet de rendre une page web 
+          interactive.</li>
+        <li>Javascript est interprétable par les navigateurs web. Il permet donc une 
+          interactivité sur une page web, sans nécessité d'utiliser un serveur : c'est 
+          directement le navigateur qui interprète le script.</li>
+        <li>Pour utiliser Javascript, il faut simplement écrire le code entre deux balises 
+            <code>&lt;script&gt;&lt;/script&gt;</code>.</li>
+        <li>Tout comme le CSS et Brython, il est préférable de séparer le code Javascript 
+          dans un fichier séparé. Dans ce cas, il faut déclarer l'emplacement du fichier js 
+        dans la balise <code>&lt;head&gt;</code> du code HTML. 
+        Ex : <code>&lt;script src="mon_script.js"&gt;&lt;/script&gt;</code></li>
+        <li>Avec Javascript, on peut écrire du code HTML dans une page, mais on peut aussi 
+          interagir avec ces éléments HTML, en changeant leur contenu, 
+          leur style, leur affichage,...</li>
+      </ul>
+
+      <h3>Au mieux...</h3>
+
+      <ul>
+        <li>Savoir ajouter des éléments HTML avec du code Javascript.</li>
+        <li>Savoir sélectionner des éléments HTML avec leur <code>id</code> ou 
+        leur <code>class</code>.</li>
+        <li>Savoir modifier un élément avec Javascript</li>
+        <li>Savoir coder une fonction pouvant s'éxecuter après tout événement sur 
+          la page (affichage, clic, menu déroulant, saisie d'un champ de texte, 
+          survol d'un élément,...).</li>
+      </ul>
+    </section>
+    <footer>
+      <a href=http://creativecommons.org/licenses/by-nc-sa/3.0/fr/>
+        <img src=https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png 
+          alt="Licence Creative Commons CC BY-NC-SA"></a>
+      <p style="text-align: center;">Auteur : David Landry, Lycée Clemenceau - Nantes</p>
+      <p style="text-align: center;">D'après des documents partagés par...</p>
+      <p style="text-align: center;"><a  href=http://www.monlyceenumerique.fr/index_nsi.html#premiere>
+        JC. Gérard, T. Lourdet, J. Monteillet, P. Thérèse, sur le site monlyceenumerique.fr</a></p>
+    </footer>
+  </body>
+</html>
